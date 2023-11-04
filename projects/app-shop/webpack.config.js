@@ -1,15 +1,15 @@
-const { shareAll, withModuleFederationPlugin } = require('@angular-architects/module-federation/webpack');
+const {shareAll, withModuleFederationPlugin} = require('@angular-architects/module-federation/webpack');
 
 module.exports = withModuleFederationPlugin({
 
   name: 'app-shop',
 
   exposes: {
-    './Component': './projects/app-shop/src/app/app.component.ts',
+    './ShopModule': './projects/app-shop/src/app/modules/shop/shop.module.ts',
   },
 
   shared: {
-    ...shareAll({ singleton: true, strictVersion: true, requiredVersion: 'auto' }),
+    ...shareAll({singleton: true, strictVersion: true, requiredVersion: 'auto'}),
   },
 
 });

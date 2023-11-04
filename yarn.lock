@@ -1549,6 +1549,34 @@
   resolved "https://registry.npmmirror.com/@ngtools/webpack/-/webpack-16.2.9.tgz#51332974727b48c05b8dd37ce6963cb7bf670890"
   integrity sha512-rOclD7FfT4OSwVA0nDnULbJS6TORJ0+sQiuT2ebaNFErYr3LOm6Zut05tnmzFw8q1cePrILbG+xpnbggNr9Pyw==
 
+"@ngxs/form-plugin@^3.8.1":
+  version "3.8.1"
+  resolved "https://registry.npmmirror.com/@ngxs/form-plugin/-/form-plugin-3.8.1.tgz#6cc5844cbe5d3266565939d19c12e573fac2ec84"
+  integrity sha512-oXaQVxNx7IjKNTCjOybFzmKfFO8nrsGlhI98bEjNyMqrahpg9HYECa/fuvcsn3Zr/WH9soyUj+v+lLzje8JuCg==
+  dependencies:
+    tslib "^2.2.0"
+
+"@ngxs/router-plugin@^3.8.1":
+  version "3.8.1"
+  resolved "https://registry.npmmirror.com/@ngxs/router-plugin/-/router-plugin-3.8.1.tgz#7abb0d108640c4d89dfcdbe63ac372cb2e33a928"
+  integrity sha512-nxzcScDsZEgAjI1jD6kO/pAdG3rji8AwZK2DWZKCEE87Y7vUnY2q1Ar+AtaUQasqMwtw4ShRMzt1eBf98vEDUg==
+  dependencies:
+    tslib "^2.2.0"
+
+"@ngxs/storage-plugin@^3.8.1":
+  version "3.8.1"
+  resolved "https://registry.npmmirror.com/@ngxs/storage-plugin/-/storage-plugin-3.8.1.tgz#264b9f6db9ed0c228426f34aefe8bd70bf15bc11"
+  integrity sha512-bMCPuqURMM2LvSdQ9HAI12wT4liB6NaaJvZy8rlixHjFWqjYKvlFUpR0FLxcDmm2TTz2TBFBnoL0wAkyOHAlGA==
+  dependencies:
+    tslib "^2.2.0"
+
+"@ngxs/store@^3.8.1":
+  version "3.8.1"
+  resolved "https://registry.npmmirror.com/@ngxs/store/-/store-3.8.1.tgz#dc4b823fc179149c32ac6158149877dda615abd2"
+  integrity sha512-nbapLdMx+mtnb57BUWXbD6qYfVICv6Rp2NdoGx1++qDbc44ALC49KbF7rSjyPltlExxharAzoNpzO3JuueCP+A==
+  dependencies:
+    tslib "^2.2.0"
+
 "@nodelib/fs.scandir@2.1.5":
   version "2.1.5"
   resolved "https://registry.npmmirror.com/@nodelib/fs.scandir/-/fs.scandir-2.1.5.tgz#7619c2eb21b25483f6d167548b4cfd5a7488c3d5"
@@ -5958,7 +5986,7 @@ tslib@2.6.1:
   resolved "https://registry.npmmirror.com/tslib/-/tslib-2.6.1.tgz#fd8c9a0ff42590b25703c0acb3de3d3f4ede0410"
   integrity sha512-t0hLfiEKfMUoqhG+U1oid7Pva4bbDPHYfJNiB7BiIjRkj1pyC++4N3huJfqY6aRH6VTB0rvtzQwjM4K6qpfOig==
 
-tslib@^2.0.0, tslib@^2.0.3, tslib@^2.1.0, tslib@^2.3.0:
+tslib@^2.0.0, tslib@^2.0.3, tslib@^2.1.0, tslib@^2.2.0, tslib@^2.3.0:
   version "2.6.2"
   resolved "https://registry.npmmirror.com/tslib/-/tslib-2.6.2.tgz#703ac29425e7b37cd6fd456e92404d46d1f3e4ae"
   integrity sha512-AEYxH93jGFPn/a2iVAwW87VuUIkR1FVUKB77NwMF7nBTDkDrrT/Hpt/IrCJ0QXhW27jTBDcf5ZY7w6RiqTMw2Q==
