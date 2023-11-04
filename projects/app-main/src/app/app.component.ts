@@ -7,8 +7,8 @@ import { loadRemoteModule } from '@angular-architects/module-federation';
 @Component({
   selector: 'app-root',
   template: `
-    <button routerLink="/user">user</button>
-    <button routerLink="/shop">shop</button>
+    <button nz-button nzType="primary" routerLink="/user">user</button>
+    <button nz-button nzType="primary" routerLink="/shop">shop</button>
     <router-outlet></router-outlet>
   `,
   styles: [],

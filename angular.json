@@ -54,9 +54,15 @@
             "inlineStyleLanguage": "scss",
             "assets": [
               "projects/app-main/src/favicon.ico",
-              "projects/app-main/src/assets"
+              "projects/app-main/src/assets",
+              {
+                "glob": "**/*",
+                "input": "./node_modules/@ant-design/icons-angular/src/inline-svg/",
+                "output": "/assets/"
+              }
             ],
             "styles": [
+              "projects/app-main/src/theme.less",
               "projects/app-main/src/styles.scss"
             ],
             "scripts": [],
@@ -172,9 +178,15 @@
             "inlineStyleLanguage": "scss",
             "assets": [
               "projects/app-shop/src/favicon.ico",
-              "projects/app-shop/src/assets"
+              "projects/app-shop/src/assets",
+              {
+                "glob": "**/*",
+                "input": "./node_modules/@ant-design/icons-angular/src/inline-svg/",
+                "output": "/assets/"
+              }
             ],
             "styles": [
+              "projects/app-shop/src/theme.less",
               "projects/app-shop/src/styles.scss"
             ],
             "scripts": [],

@@ -10,6 +10,13 @@ import { states } from './store';
 import { NgxsStoragePluginModule } from '@ngxs/storage-plugin';
 import { NgxsFormPluginModule } from '@ngxs/form-plugin';
 import { NgxsRouterPluginModule } from '@ngxs/router-plugin';
+import { registerLocaleData } from '@angular/common';
+import zh from '@angular/common/locales/zh';
+import { IconsProviderModule } from './icons-provider.module';
+import { NZ_I18N, zh_CN } from 'ng-zorro-antd/i18n';
+import { NzButtonModule } from 'ng-zorro-antd/button';
+
+registerLocaleData(zh);
 
 @NgModule({
   declarations: [
@@ -25,8 +32,12 @@ import { NgxsRouterPluginModule } from '@ngxs/router-plugin';
     NgxsStoragePluginModule.forRoot(),
     NgxsFormPluginModule.forRoot(),
     NgxsRouterPluginModule.forRoot(),
+    IconsProviderModule,
+    NzButtonModule,
   ],
-  providers: [],
+  providers: [
+    {provide: NZ_I18N, useValue: zh_CN},
+  ],
   bootstrap: [AppComponent],
 })
 export class AppModule {
